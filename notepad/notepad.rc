@@ -10,18 +10,15 @@
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
 #define DLGMODAL WS_POPUP | WS_DLGFRAME
-#define VER_FILEVERSION                 5, 2, 3791, 0
-#define VER_PRODUCTVERSION              5, 2, 3791, 0
-#define VER_FILETYPE                    VFT_APP
-#define VER_FILESUBTYPE                 VFT_UNKNOWN
-#define VER_FILEOS                      VOS_NT_WINDOWS32
-#define VER_FILEDESCRIPTION_STR         "Notepad for Windows NT"
-#define VER_INTERNALNAME_STR            "Notepad"
-#define VER_ORIGINALFILENAME_STR        "NOTEPAD.EXE"
 
 /* Version Stamping */
 /* #include "notepad.rcv" */
 
+1 VERSIONINFO
+	FILEVERSION 5, 2, 3791, 0
+	PRODUCTVERSION 5, 2, 3791, 0
+	FILEOS VOS_NT_WINDOWS32
+	VER_FILETYPE VFT_APP
 BEGIN
 	BLOCK "StringFileInfo" {
 		BLOCK "040904B0" {
