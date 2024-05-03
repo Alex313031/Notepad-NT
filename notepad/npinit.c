@@ -1093,7 +1093,7 @@ BOOL NPRegister (HANDLE hInstance)
     pNPClass->lpszMenuName  = (LPTSTR) MAKEINTRESOURCE(ID_MENUBAR);
     pNPClass->hInstance     = hInstance;
     pNPClass->lpszClassName = szNotepad;
-    pNPClass->lpfnWndProc   = NPWndProc;
+    pNPClass->lpfnWndProc   = (WNDPROC) NPWndProc;;
     pNPClass->hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     pNPClass->style         = 0; // was CS_BYTEALIGNCLIENT (obsolete)
     pNPClass->cbClsExtra    = 0;
