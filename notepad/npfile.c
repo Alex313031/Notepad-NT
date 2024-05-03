@@ -109,24 +109,21 @@ BOOL AnsiWriteFile(HANDLE  hFile,    // file to write to
     }
 
     bStatus= 
-    WideCharToMultiByte( uCodePage,             // code page
-                         dwFlags,               // performance and mapping flags
+    WideCharToMultiByte(uCodePage,             // code page
+                        dwFlags,               // performance and mapping flags
                         (LPWSTR) lpBuffer,      // wide char buffer
-                         nChars,                // chars in wide char buffer
-                         lpAnsi,                // resultant ascii string
-                         nBytes,                // size of ascii string buffer
-                         NULL,                  // char to sub. for unmapped chars (use default)
-                         pfDefCharUsed);        // flag to set if default char used
+                        nChars,                // chars in wide char buffer
+                        lpAnsi,                // resultant ascii string
+                        nBytes,                // size of ascii string buffer
+                        NULL,                  // char to sub. for unmapped chars (use default)
+                        pfDefCharUsed);        // flag to set if default char used
 
-    if( bStatus ) 
-    {
+   if (bStatus) {
         bStatus= WriteFile( hFile, lpAnsi, nBytes, &nBytesWritten, NULL );
     }
 
     LocalFree( lpAnsi );
-
     return( bStatus );
-
 } // end of AnsiWriteFile()
 
 
@@ -248,8 +245,9 @@ BOOL FAR SaveFile (HWND hwndParent, TCHAR *szFileSave, BOOL fSaveAs )
        }
     }
 
+
     if( fp == INVALID_HANDLE_VALUE )
-    {            
+    {
         AlertBox( hwndParent, szNN, szCREATEERR, szFileSave,
                         MB_APPLMODAL | MB_OK | MB_ICONEXCLAMATION);
         return FALSE;       
@@ -399,6 +397,9 @@ CleanUp:
 
 } // end of SaveFile()
 
+// TaskDialog function pointer
+typedef HRESULT (WINAPI *TD)(HWND, HINSTANCE, PCWSTR, PCWSTR, PCWSTR, TASKDIALOG_COMMON_BUTTON_FLAGS, PCWSTR, int *);
+
 /* Read contents of file from disk.
  * Do any conversions required.
  * File is already open, referenced by handle fp
@@ -427,8 +428,7 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     NP_FILETYPE ftOpenedAs=FT_UNKNOWN;
 
 
-    if( fp == INVALID_HANDLE_VALUE )
-    {
+    if( fp == INVALID_HANDLE_VALUE ) {
        AlertUser_FileFail( sz );
        return (FALSE);
     }
@@ -564,8 +564,8 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     // in consistent state if an exception is thrown.  Be very careful
     // with globals.
 
-    __try
-    {
+    //__try
+    //{
     /* Determine the file type and number of characters
      * If the user overrides, use what is specified.
      * Otherwise, we depend on 'IsTextUnicode' getting it right.
@@ -686,7 +686,6 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
         }
     }
 
-
     // find out no. of chars present in the string.
     if (!bUnicode)
     {
@@ -698,26 +697,20 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
                                       0);
     }
 
-    //
     // Don't display text until all done.
-    //
-
     SendMessage (hwndEdit, WM_SETREDRAW, (WPARAM)FALSE, (LPARAM)0);
 
     // Reset selection to 0
-
     SendMessage(hwndEdit, EM_SETSEL, 0, 0L);
     SendMessage(hwndEdit, EM_SCROLLCARET, 0, 0);
 
     // resize the edit buffer
     // if we can't resize the memory, inform the user
-
     if (!(hNewEdit= LocalReAlloc(hEdit,ByteCountOf(nChars + 1),LMEM_MOVEABLE)))
     {
       /* Bug 7441: New() causes szFileName to be set to "Untitled".  Save a
        *           copy of the filename to pass to AlertBox.
-       *  17 November 1991    Clark R. Cyr
-       */
+       *  17 November 1991    Clark R. Cyr */
        lstrcpy(szSave, sz);
        New(FALSE);
 
@@ -726,19 +719,17 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
 
        AlertBox( hwndNP, szNN, szFTL, szSave,
                  MB_APPLMODAL | MB_OK | MB_ICONEXCLAMATION);
-       if( lpBuf != (LPTSTR) &szNullFile )
-       {
-           UnmapViewOfFile( lpBuf );
+       if( lpBuf != (LPTSTR) &szNullFile ) {
+           UnmapViewOfFile(lpBuf);
        }
 
        // let user see old text
-
        SendMessage (hwndEdit, WM_SETREDRAW, (WPARAM)FALSE, (LPARAM)0);
        return FALSE;
     }
 
     /* Transfer file from temporary buffer to the edit buffer */
-    lpch= (LPTSTR) LocalLock(hNewEdit);
+    lpch = (LPTSTR) LocalLock(hNewEdit);
 
     if( bUnicode )
     {
@@ -778,19 +769,14 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     //}
 
     /* Free file mapping */
-    if( lpBuf != (LPTSTR) &szNullFile )
-    {
+    if( lpBuf != (LPTSTR) &szNullFile ) {
         UnmapViewOfFile( lpBuf );
     }
 
 
-    if( lpch ) 
-    {
-
+    if (lpch) {
        // Fix any NUL character that came in from the file to be spaces.
-
-       for (i = 0, p = lpch; i < nChars; i++, p++)
-       {
+       for (i = 0, p = lpch; i < nChars; i++, p++) {
           if( *p == (TCHAR) 0 )
              *p= TEXT(' ');
        }
@@ -805,12 +791,9 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
              *lpch++ == TEXT('O') && *lpch == TEXT('G');
     }
    
-    if( hNewEdit )
-    {
+    if (hNewEdit) {
        LocalUnlock( hNewEdit );
-
        // now it is safe to set the global edit handle
-
        hEdit= hNewEdit;
     }
 
