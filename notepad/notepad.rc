@@ -5,7 +5,7 @@
 /*                                            */
 
 #include "notepad.h"
-/* #include <winver.h> */
+#include <winver.h>
 #define GRP      WS_GROUP
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
@@ -26,7 +26,7 @@ BEGIN
 			VALUE "FileDescription", "Notepad for Windows NT"
 			VALUE "FileVersion", "5.2.3791.0"
 			VALUE "InternalName", "Notepad"
-			VALUE "LegalCopyright", "Copyright Alex313031
+			VALUE "LegalCopyright", "Copyright Alex313031"
 			VALUE "OriginalFilename", "NOTEPAD.EXE"
 			VALUE "ProductName", "Notepad NT"
 			VALUE "ProductVersion", "1.0.1.0"
