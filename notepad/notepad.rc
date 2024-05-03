@@ -22,6 +22,8 @@
 #define VER_FILETYPE                    VFT_APP
 #define VER_FILESUBTYPE                 VFT_UNKNOWN
 
+#define VER_FILEDESCRIPTION_STR         "Notepad for Windows NT"
+
 #ifndef DEBUG
 #define VER_DEBUG                   0
 #else
