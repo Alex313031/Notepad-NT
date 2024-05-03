@@ -3,6 +3,10 @@
 #define CINTERFACE
 #define COBJMACROS
 #include <Windows.h>
+#include <shobjidl.h>
+#include <shlwapi.h>
+#include <CommCtrl.h>
+#include <hxhelppaneproxy.h>
 #include "notepad.h"
 #include <shellapi.h>
 #include <cderr.h>
