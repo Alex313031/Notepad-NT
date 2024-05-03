@@ -250,7 +250,7 @@ BOOL FAR SaveFile (HWND hwndParent, TCHAR *szFileSave, BOOL fSaveAs )
     {
         AlertBox( hwndParent, szNN, szCREATEERR, szFileSave,
                         MB_APPLMODAL | MB_OK | MB_ICONEXCLAMATION);
-        return FALSE;       
+        return FALSE;
     }
 
 
@@ -398,7 +398,7 @@ CleanUp:
 } // end of SaveFile()
 
 // TaskDialog function pointer
-//typedef HRESULT (WINAPI *TD)(HWND, HINSTANCE, PCWSTR, PCWSTR, PCWSTR, TASKDIALOG_COMMON_BUTTON_FLAGS, PCWSTR, int *);
+typedef HRESULT (WINAPI *TD)(HWND, HINSTANCE, PCWSTR, PCWSTR, PCWSTR, TASKDIALOG_COMMON_BUTTON_FLAGS, PCWSTR, int *);
 
 /* Read contents of file from disk.
  * Do any conversions required.
@@ -425,8 +425,7 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     HANDLE    hMap;             // file mapping handle
     TCHAR     szNullFile[2];    // fake null mapped file
     INT       cpTemp = CP_ACP;
-    NP_FILETYPE ftOpenedAs=FT_UNKNOWN;
-
+    NP_FILETYPE ftOpenedAs = FT_UNKNOWN;
 
     if( fp == INVALID_HANDLE_VALUE ) {
        AlertUser_FileFail( sz );
@@ -734,21 +733,14 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     if( bUnicode )
     {
        /* skip the Byte Order Mark */
-       if (*lpBuf == BYTE_ORDER_MARK)
-       {
+       if (*lpBuf == BYTE_ORDER_MARK) {
           CopyMemory (lpch, lpBuf + 1, ByteCountOf(nChars));
-       }
-       else if( *lpBuf == REVERSE_BYTE_ORDER_MARK )
-       {
+       } else if ( *lpBuf == REVERSE_BYTE_ORDER_MARK ) {
           ReverseEndian( lpch, lpBuf+1, nChars );          
-       }
-       else
-       {
+       } else {
           CopyMemory (lpch, lpBuf, ByteCountOf(nChars));
        }
-    }
-    else
-    {      
+    } else {      
        nChars = MultiByteToWideChar (cpTemp,
                                      0,
                                      (LPSTR)lpBufAfterBOM,
@@ -758,7 +750,7 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
        
     }
 
-    g_ftOpenedAs= ftOpenedAs;   // got everything; update global safe now
+    g_ftOpenedAs = ftOpenedAs;   // got everything; update global safe now
 
     //} 
     //__except(EXCEPTION_EXECUTE_HANDLER)
@@ -772,7 +764,6 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     if( lpBuf != (LPTSTR) &szNullFile ) {
         UnmapViewOfFile( lpBuf );
     }
-
 
     if (lpch) {
        // Fix any NUL character that came in from the file to be spaces.
