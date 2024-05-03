@@ -795,19 +795,18 @@ INT FAR NPInit (HANDLE hInstance, HANDLE hPrevInstance,
 
     GetGlobals();
 
-
-    hwndNP= CreateWindow(  szNotepad, 
-                           TEXT(""),
-                           WS_OVERLAPPED | WS_CAPTION     | WS_SYSMENU     |
-                           WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | 0,
-                           g_WPleft,     // x
-                           g_WPtop,      // y
-                           g_WPDX,       // width
-                           g_WPDY,       // height
-                           (HWND)NULL,   // parent or owner
-                           (HMENU)NULL,  // menu or child window
-                           hInstance,    // application instance
-                           NULL);        // window creation data
+    hwndNP= CreateWindow(szNotepad,
+                         TEXT(""),
+                         WS_OVERLAPPED | WS_CAPTION     | WS_SYSMENU     |
+                         WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CLIPCHILDREN,
+                         g_WPleft,     // x
+                         g_WPtop,      // y
+                         g_WPDX,       // width
+                         g_WPDY,       // height
+                         (HWND)NULL,   // parent or owner
+                         (HMENU)NULL,  // menu or child window
+                         hInstance,    // application instance
+                         NULL);        // window creation data
 
     g_PageSetupDlg.hwndOwner     = hwndNP;
 
@@ -1086,7 +1085,7 @@ BOOL NPRegister (HANDLE hInstance)
     pNPClass->lpszMenuName  = (LPTSTR) MAKEINTRESOURCE(ID_MENUBAR);
     pNPClass->hInstance     = hInstance;
     pNPClass->lpszClassName = szNotepad;
-    pNPClass->lpfnWndProc   = (WNDPROC) NPWndProc;;
+    pNPClass->lpfnWndProc   = (WNDPROC) NPWndProc;
     pNPClass->hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     pNPClass->style         = 0; // was CS_BYTEALIGNCLIENT (obsolete)
     pNPClass->cbClsExtra    = 0;
