@@ -69,5 +69,8 @@
     <ResourceCompile Include="notepad.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
+    <ResourceCompile Include="notepad.rcv">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
