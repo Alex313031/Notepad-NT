@@ -14,6 +14,11 @@
 
 #define VER_USE_OTHER_MAJOR_MINOR_VER
 
+#define VER_PRODUCTMAJORVERSION         5
+#define VER_PRODUCTMINORVERSION         2
+#define VER_PRODUCTBUILD                3792
+#define VER_PRODUCTBUILD_QFE            0
+
 #ifndef DEBUG
 #define VER_DEBUG                   0
 #else
