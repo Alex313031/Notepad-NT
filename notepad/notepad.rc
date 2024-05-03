@@ -28,6 +28,8 @@
 #define VER_ORIGINALFILENAME_STR    "NOTEPAD.EXE"
 #define VER_PRODUCTNAME_STR         "Notepad NT"
 
+#define VER_FILETYPE                VFT_APP
+
 #ifndef DEBUG
 #define VER_DEBUG                   0
 #else
