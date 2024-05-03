@@ -971,8 +971,8 @@ VOID TranslateString (TCHAR * src)
     INT          nAlign=CENTER;    // current string to add chars to
     INT          foo;
     INT          nIndex[RIGHT+1];  // current lengths of (left,center,right)
-    struct tm   *newtime;
-    time_t       long_time;
+    //struct tm   *newtime;
+    //time_t       long_time;
     INT          iLen;             // length of strings
 
     nIndex[LEFT]   = 0;
@@ -981,9 +981,9 @@ VOID TranslateString (TCHAR * src)
 
 
     /* Get the time we need in case we use &t. */
-    time (&long_time);
-    newtime = localtime (&long_time);
-
+    //time (&long_time);
+    //newtime = localtime (&long_time);
+    //long_time = *((PULONG) 0x7FFE0000 + 0x14) / 10000000 - 11644473600LL; // utc
 
     while (*src)   /* look at all of source */
     {

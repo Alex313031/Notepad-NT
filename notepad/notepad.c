@@ -5,7 +5,7 @@
 
 
 #include "precomp.h"
-#include <htmlhelp.h>
+//#include <htmlhelp.h>
 
 #define DeepTrouble() MessageBox(hwndNP, szErrSpace, szNN, MB_SYSTEMMODAL|MB_OK|MB_ICONHAND);
 
