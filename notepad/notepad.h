@@ -232,7 +232,7 @@ extern HANDLE   fp;
 
 extern BOOL     fMLE_is_broken;
 
-extern WNDPROC	DefEditWindowProc;
+extern WNDPROC  DefEditWindowProc;
 
 //
 // Holds header and footer strings to be used in printing.
