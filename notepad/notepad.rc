@@ -213,7 +213,3 @@ END
 
 /* Include other dialogs. */
 rcinclude notepad.dlg
-
-#include <ntverp.h>
-
-#include "common.ver"
