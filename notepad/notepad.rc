@@ -11,6 +11,9 @@
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
 #define DLGMODAL WS_POPUP | WS_DLGFRAME
+
+#define VER_USE_OTHER_MAJOR_MINOR_VER
+
 #define VER_FILEVERSION                 5, 2, 3792, 0
 #define VER_PRODUCTVERSION              5,2,3792,0
 #define VER_PRODUCTNAME                 Notepad NT
