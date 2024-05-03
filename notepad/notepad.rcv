@@ -2,3 +2,7 @@
 /*        NOTEPAD.RCV                                               */
 /*        Version control data generated from layouts.dat           */
 /********************************************************************/
+
+#define VER_FILETYPE                    VFT_APP
+#define VER_FILESUBTYPE                 VFT_UNKNOWN
+#define VER_FILEOS                      VOS_NT_WINDOWS32
