@@ -5,7 +5,7 @@
 /*                                            */
 
 #include "notepad.h"
-/* #include <winver.h> */
+#include <winver.h>
 #define GRP      WS_GROUP
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
