@@ -333,6 +333,7 @@ INT_PTR CALLBACK GotoDlgProc(HWND hDlg,UINT message,WPARAM wParam,LPARAM lParam)
 VOID CALLBACK WinEventFunc(HWINEVENTHOOK hWinEventHook, DWORD event, HWND hwnd, LONG idObject,
                       LONG idChild, DWORD dwEventThread, DWORD dwmsEventTime);
 
+VOID NewWindow(VOID);
 
 NP_FILETYPE fDetermineFileType(LPBYTE lpFileContents, UINT iSize);
 VOID GotoAndScrollInView( INT OneBasedLineNumber );

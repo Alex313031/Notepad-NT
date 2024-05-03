@@ -1477,6 +1477,12 @@ LPTSTR SkipProgramName (LPTSTR lpCmdLine)
 
 /* ** Main loop */
 
+VOID EntryPoint(
+	VOID)
+{
+	ExitProcess(WinMain(GetModuleHandle(NULL), NULL, NULL, TRUE));
+}
+
 INT WINAPI WinMain(
    HINSTANCE hInstance,
    HINSTANCE hPrevInstance,
