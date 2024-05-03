@@ -5,7 +5,7 @@
 /*                                            */
 
 #include "notepad.h"
-#include <winver.h>
+/* #include <winver.h> */
 #define GRP      WS_GROUP
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
@@ -152,13 +152,13 @@ BEGIN
     IDS_FNF         "Cannot find the %% file.\n\nDo you want to create a new file?"
     IDS_SCBC        "The text in the %% file has changed.\n\nDo you want to save the changes?"
     IDS_UNTITLED    "Untitled"
-    IDS_NOTEPAD     " - Notepad"
+    IDS_NOTEPAD     " - Notepad NT"
     IDS_CFS         "Cannot find ""%%"""
     /* The following is a generic out of memory message which can also be
        system modal so no /n can appear in it. */
     IDS_ERRSPACE    "Not enough memory available to complete this operation. Quit one or more applications to increase available memory, and then try again."
     IDS_FTL         "The %% file is too large for Notepad.\n\nUse another editor to edit the file."
-    IDS_NN          "Notepad"
+    IDS_NN          "Notepad NT"
     IDS_COMMDLGINIT "Failed to Initialize File Dialogs. Change the Filename and try again."
     IDS_PRINTDLGINIT "Failed to Initialize Print Dialogs. Make sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly."
     IDS_CANTPRINT   "Cannot print the %% file. Be sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly."

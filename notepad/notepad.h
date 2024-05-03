@@ -232,6 +232,8 @@ extern HANDLE   fp;
 
 extern BOOL     fMLE_is_broken;
 
+extern WNDPROC	DefEditWindowProc;
+
 //
 // Holds header and footer strings to be used in printing.
 // use HEADER and FOOTER to index.
@@ -393,8 +395,6 @@ VOID   PrintIt(PRINT_DIALOG_TYPE type);
 INT    IsTextUTF8   (LPSTR lpstrInputStream, INT iLen);
 INT    IsInputTextUnicode(LPSTR lpstrInputStream, INT iLen);
 
-
-
 // Help IDs for Notepad
 
 #define NO_HELP                         ((DWORD) -1) // Disables Help for a control
@@ -407,4 +407,3 @@ INT    IsInputTextUnicode(LPSTR lpstrInputStream, INT iLen);
 // Private message to track the HKL switch
 
 #define PWM_CHECK_HKL                   (WM_APP + 1)
-
