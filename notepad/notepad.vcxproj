@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="notepad.rc" />
+    <ResourceCompile Include="notepad.rcv" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{97A1C6B6-3AFB-4847-8DAF-7CDE257070A2}</ProjectGuid>
