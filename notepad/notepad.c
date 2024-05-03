@@ -572,7 +572,6 @@ INT NPCommand(
     HWND     hwndFocus;
     LONG     lSel;
     TCHAR    szNewName[MAX_PATH] = TEXT("");      /* New file name */
-    FARPROC  lpfn;
     LONG     style;
     DWORD    rc;
     RECT     rcClient;
@@ -1169,10 +1168,8 @@ LRESULT FAR NPWndProc(
         WPARAM     wParam,
         LPARAM     lParam)
 {
-    RECT rc;
     LPFINDREPLACE lpfr;
     DWORD dwFlags;
-    HANDLE hMenu;
     INT iParts[2];
 
 
@@ -2051,8 +2048,6 @@ INT_PTR CALLBACK GotoDlgProc(HWND hDlg,UINT message,WPARAM wParam,LPARAM lParam)
     TCHAR szBuf[GOTOBUFSIZE];
     UINT LineNum;
     DWORD SelStart, SelEnd;
-    POINT pt;
-    INT id;
 
     switch (message)
     {
