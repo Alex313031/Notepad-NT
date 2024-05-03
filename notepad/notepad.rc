@@ -1,7 +1,8 @@
 /*                                            */
-/*       Notepad application                  */
+/*       Notepad NT application               */
 /*                                            */
 /*   Copyright (C) 1984-2001  Microsoft Inc.  */
+/*   Copyright (C) 2024  Alex313031           */
 /*                                            */
 
 #include "notepad.h"
@@ -22,7 +23,7 @@
 #define VER_FILEVERSION_STR         "5.2.3792.0\0"
 #define VER_INTERNALNAME_STR        "Notepad"
 #define VER_LEGALCOPYRIGHT_STR      "Copyright (c) 2024 Alex313031"
-#define VER_ORIGINALFILENAME_STR    "notepad.exe"
+#define VER_ORIGINALFILENAME_STR    "notepad-nt.exe"
 #define VER_PRODUCTNAME_STR         "Notepad NT"
 #define VER_PRODUCTVERSION          5,2,3792,0
 #define VER_PRODUCTVERSION_STR      "5.2.3792.0\0"
@@ -191,7 +192,7 @@ BEGIN
     /* The following is a generic out of memory message which can also be
        system modal so no /n can appear in it. */
     IDS_ERRSPACE    "Not enough memory available to complete this operation. Quit one or more applications to increase available memory, and then try again."
-    IDS_FTL         "The %% file is too large for Notepad.\n\nUse another editor to edit the file."
+    IDS_FTL         "The %% file is too large for Notepad NT.\n\nUse another editor to edit the file."
     IDS_NN          "Notepad NT"
     IDS_COMMDLGINIT "Failed to Initialize File Dialogs. Change the Filename and try again."
     IDS_PRINTDLGINIT "Failed to Initialize Print Dialogs. Make sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly."
@@ -210,13 +211,13 @@ BEGIN
     IDS_ALLFILES    "All Files "   /* filter text for File/Open  */
     IDS_OPENCAPTION "Open"      /* title for file/open dialog */
     IDS_SAVECAPTION "Save As"   /* title for file/save dialog */
-    IDS_CANNOTQUIT  "You cannot quit Windows because the Save As dialog\nbox in Notepad is open.  Switch to Notepad, close this\ndialog box, and then try quitting Windows again."
+    IDS_CANNOTQUIT  "You cannot quit Windows because the Save As dialog\nbox in Notepad NT is open.  Switch to Notepad NT, close this\ndialog box, and then try quitting Windows again."
     IDS_LOADDRVFAIL "Cannot access your printer.\nBe sure that your printer is connected properly and use Control Panel to verify that the printer is configured properly."
     IDS_ERRUNICODE  "%%\n This file contains characters in Unicode format which will be lost if you save this file as an ANSI encoded text file. To keep the Unicode information, click Cancel below and then select one of the Unicode options from the Encoding drop down list. Continue?"
     IDS_FONTTOOBIG  "Page too small to print one line.\nTry printing using smaller font."
     IDS_COMMDLGERR  "Common Dialog error (0x%04x)"
 
-    IDS_LINEERROR    "Notepad - Goto Line"
+    IDS_LINEERROR    "Notepad NT - Goto Line"
     IDS_LINETOOLARGE "Line number out of range"
 
     IDS_FT_ANSI      "ANSI"
