@@ -5,6 +5,7 @@
 /*                                            */
 
 #include "notepad.h"
+#include <winver.h>
 #define GRP      WS_GROUP
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
@@ -12,6 +13,30 @@
 
 /* Version Stamping */
 #include "notepad.rcv"
+
+1 VERSIONINFO
+	FILEVERSION 5, 2, 3791, 0
+	PRODUCTVERSION 5, 2, 3791, 0
+	FILEOS VOS_NT_WINDOWS32
+	FILETYPE VFT_APP
+BEGIN
+	BLOCK "StringFileInfo" {
+		BLOCK "040904B0" {
+			VALUE "Comments", "https://github.com/Alex313031/Notepad-NT"
+			VALUE "FileDescription", "Notepad for Windows NT"
+			VALUE "FileVersion", "5.2.3791.0"
+			VALUE "InternalName", "Notepad"
+			VALUE "LegalCopyright", "Copyright Alex313031
+			VALUE "OriginalFilename", "NOTEPAD.EXE"
+			VALUE "ProductName", "Notepad NT"
+			VALUE "ProductVersion", "1.0.1.0"
+		}
+	}
+
+	BLOCK "VarFileInfo" {
+		VALUE "Translation", 0x0409 0x04B0
+	}
+END
 
 ID_ICON    ICON PRELOAD DISCARDABLE     notepad.ico
 
