@@ -8,6 +8,7 @@
 #define STATIC static
 #define CONST const
 
+#ifndef RC_INVOKED
 #include <ole2.h>
 #include <commdlg.h>
 #include <commctrl.h>
@@ -16,6 +17,7 @@
 
 #define STRSAFE_NO_DEPRECATE
 #include <strsafe.h>
+#endif // ifndef RC_INVOKED
 
 /* handy debug macro */
 #define ODS OutputDebugString
