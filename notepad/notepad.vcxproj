@@ -96,25 +96,25 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <TargetName>notepad_x$(PlatformArchitecture)_debug</TargetName>
+    <TargetName>notepad-nt_x$(PlatformArchitecture)_debug</TargetName>
     <OutDir>$(SolutionDir)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <TargetName>notepad_x$(PlatformArchitecture)_debug</TargetName>
+    <TargetName>notepad-nt_x$(PlatformArchitecture)_debug</TargetName>
     <OutDir>$(SolutionDir)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <TargetName>notepad_x$(PlatformArchitecture)</TargetName>
+    <TargetName>notepad-nt_x$(PlatformArchitecture)</TargetName>
     <OutDir>$(SolutionDir)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <TargetName>notepad_x$(PlatformArchitecture)</TargetName>
+    <TargetName>notepad-nt_x$(PlatformArchitecture)</TargetName>
     <OutDir>$(SolutionDir)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
