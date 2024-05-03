@@ -2,7 +2,7 @@
 
 #define NOCOMM
 #define NOSOUND
-#include <Windows.h>
+#include <windows.h>
 #include <WindowsX.h>
 
 #define STATIC static
