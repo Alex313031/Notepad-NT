@@ -2,7 +2,12 @@
 
 #define NOCOMM
 #define NOSOUND
-#include <windows.h>
+#include <Windows.h>
+#include <WindowsX.h>
+
+#define STATIC static
+#define CONST const
+
 #include <ole2.h>
 #include <commdlg.h>
 #include <commctrl.h>
@@ -362,8 +367,8 @@ typedef enum _PRINT_DIALOG_TYPE {
    NoDialogNonDefault
 } PRINT_DIALOG_TYPE;
 
-INT    AbortProc( HDC hPrintDC, INT reserved );
-INT_PTR AbortDlgProc( HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam );
+BOOL CALLBACK   AbortProc( HDC hPrintDC, INT reserved );
+INT_PTR CALLBACK AbortDlgProc( HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam );
 INT    NpPrint( PRINT_DIALOG_TYPE type );
 INT    NpPrintGivenDC( HDC hPrintDC );
 
