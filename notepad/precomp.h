@@ -1,8 +1,12 @@
 #define WIN31
+#define _CRT_SECURE_NO_WARNINGS // FIXME REMOVE THIS IN THE FUTURE
+#define CINTERFACE
+#define COBJMACROS
+#include <Windows.h>
 #include "notepad.h"
 #include <shellapi.h>
 #include <cderr.h>
-#include <winnlsp.h>   // for NORM_STOP_ON_NULL
+#include "winnlsp.h"   // for NORM_STOP_ON_NULL
 
 #include <string.h>
 
