@@ -163,8 +163,6 @@ VOID ClearFmt(VOID)
 
 VOID RestoreFmt(VOID)
 {
-    UINT CharIndex;
-
     if( fWrap )
     {
         if( fMLE_is_broken ) 
@@ -418,7 +416,6 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
     TCHAR     szSave[MAX_PATH]; /* Private copy of current filename */
     BOOL      bUnicode=FALSE;   /* true if file detected as unicode */
     BOOL      bUTF8=FALSE;      /* true if file detected as UTF-8 */
-    DWORD     nBytesRead;       // number of bytes read
     BY_HANDLE_FILE_INFORMATION fiFileInfo;
     BOOL      bStatus;          // boolean status
     HLOCAL    hNewEdit=NULL;    // new handle for edit buffer

@@ -966,10 +966,8 @@ UINT_PTR CALLBACK PageSetupHookProc(
 VOID TranslateString (TCHAR * src)
 {
     TCHAR        buf[MAX_PATH];
-    TCHAR       *ptr;
     INT          page;
     INT          nAlign=CENTER;    // current string to add chars to
-    INT          foo;
     INT          nIndex[RIGHT+1];  // current lengths of (left,center,right)
     //struct tm   *newtime;
     //time_t       long_time;

@@ -797,7 +797,7 @@ INT NPCommand(
             //HtmlHelpA(GetDesktopWindow(), "notepad.chm", HH_DISPLAY_TOPIC, 0L);
             TCHAR szNpHelpPath[MAX_PATH];
             // Override and get help from current directory
-            ExpandEnvironmentStrings(TEXT("%cd%\\notepad.chm"), szNpHelpPath, ARRAYSIZE(szNpHelpPath));
+            ExpandEnvironmentStrings(TEXT("%CD%\\notepad.chm"), szNpHelpPath, ARRAYSIZE(szNpHelpPath));
             ShellExecute(GetDesktopWindow(), NULL, szNpHelpPath, NULL, NULL, TRUE);
             break;
 
