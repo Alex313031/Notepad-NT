@@ -19,8 +19,6 @@
 #include <strsafe.h>
 #endif // ifndef RC_INVOKED
 
-#define VER_USE_OTHER_MAJOR_MINOR_VER
-
 /* handy debug macro */
 #define ODS OutputDebugString
 
