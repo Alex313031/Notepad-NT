@@ -875,13 +875,6 @@ INT FAR NPInit (HANDLE hInstance, HANDLE hPrevInstance,
 
     SendMessage( hwndEdit, EM_FMTLINES, fWrap, 0L );  // tell MLE
 
-	// if wordwrap, disable the statusbar
-    if (fWrap)
-    {
-        hMenu = GetMenu(hwndNP);
-        EnableMenuItem(GetSubMenu(hMenu, 3), M_STATUSBAR, MF_GRAYED);
-    }
-
     FontStruct.lfHeight= -MulDiv(iPointSize,
                                  GetDeviceCaps(hDisplayDC,LOGPIXELSY),
                                  720);
