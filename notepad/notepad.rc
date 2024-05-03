@@ -21,6 +21,8 @@
 #define VER_COMPANYNAME_STR         "Alex313031"
 #define VER_FILEDESCRIPTION_STR     "Notepad for Windows NT"
 #define VER_INTERNALNAME_STR        "Notepad"
+#define VER_LEGALCOPYRIGHT_STR      "Copyright (c) Alex313031 and vxiiduu"
+#define VER_ORIGINALFILENAME_STR    "NOTEPAD.EXE"
 
 #ifndef DEBUG
 #define VER_DEBUG                   0
