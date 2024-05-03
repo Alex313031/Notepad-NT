@@ -30,6 +30,10 @@ typedef enum _NP_FILETYPE {
    FT_UTF8=3,
 } NP_FILETYPE;
 
+typedef enum _NP_LINETYPE {
+    LT_WINDOWS = 0,
+    LT_UNIX = 1,
+} NP_LINETYPE;
 
 #define BOM_UTF8_HALF        0xBBEF
 #define BOM_UTF8_2HALF       0xBF
