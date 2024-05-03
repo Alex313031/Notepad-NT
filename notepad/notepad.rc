@@ -10,6 +10,11 @@
 #define TAB      WS_TABSTOP
 #define TABGRP   WS_TABSTOP | WS_GROUP
 #define DLGMODAL WS_POPUP | WS_DLGFRAME
+#define VER_FILETYPE                    VFT_APP
+#define VER_FILESUBTYPE                 VFT_UNKNOWN
+#define VER_FILEDESCRIPTION_STR         "Notepad for Windows NT"
+#define VER_INTERNALNAME_STR            "Notepad"
+#define VER_ORIGINALFILENAME_STR        "NOTEPAD.EXE"
 
 /* Version Stamping */
 /* #include "notepad.rcv" */

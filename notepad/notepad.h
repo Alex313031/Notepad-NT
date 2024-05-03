@@ -2,7 +2,8 @@
 
 #define NOCOMM
 #define NOSOUND
-#include <windows.h>
+#include <Windows.h>
+#include <WindowsX.h>
 
 #define STATIC static
 #define CONST const
