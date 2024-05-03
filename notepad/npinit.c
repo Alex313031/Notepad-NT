@@ -740,8 +740,6 @@ INT FAR NPInit (HANDLE hInstance, HANDLE hPrevInstance,
     INT    iSta;
     WINDOWPLACEMENT wp;    /* structure to place window at the correct position */
     INT    iParts[2];
-    HMENU  hMenu;          // handle to the menu.
-
 
     /* determine the message number to be used for communication with
      * Find dialog

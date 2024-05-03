@@ -117,10 +117,8 @@ LPTSTR ForwardScan(LPTSTR lpSource, LPTSTR lpSearch, BOOL fCaseSensitive )
    return *lpSource ? lpSource : NULL;
 }
 
-
-// search forward or backward in the edit control text for the given pattern
+// Search forward or backward in the edit control text for the given pattern
 // It is the responsibility of the caller to set the cursor
-
 BOOL Search (TCHAR * szKey)
 {
     BOOL      bStatus= FALSE;
@@ -164,9 +162,10 @@ BOOL Search (TCHAR * szKey)
     {
         return( bStatus );
     }
-    pStart= LocalLock( hEText );
-    if( !pStart )
-    {
+
+    pStart = LocalLock( hEText );
+
+    if( !pStart ) {
         return( bStatus );
     }
 
@@ -266,13 +265,17 @@ BOOL NpReCreate( long style )
     HCURSOR hPrevCursor;
     BOOL    bModified;     // modify flag from old edit buffer
 
-    // if wordwrap, remove soft carriage returns 
+    ULONG    SelectionStart;  // NotepadEx: save selection and cursor pos.
+    ULONG    SelectionEnd;    // when entering/leaving wordwrap
 
+    // NotepadEx: save old cursor position
+    SendMessage(hwndEdit, EM_GETSEL, (WPARAM) &SelectionStart, (LPARAM) &SelectionEnd);
+
+    // if wordwrap, remove soft carriage returns 
     hPrevCursor= SetCursor( hWaitCursor );     // this may take some time...
     if( fWrapIsOn ) 
     {
         GotoAndScrollInView(1);  // get around MLE bug
-
         SendMessage(hwndEdit, EM_FMTLINES, FALSE, 0L);
     }
 
@@ -361,7 +364,6 @@ BOOL NpReCreate( long style )
     hEdit = hT1;
 
     // limit text for safety's sake.
-
     PostMessage( hwndEdit, EM_LIMITTEXT, (WPARAM)CCHNPMAX, 0L );
 
     ShowWindow(hwndNP, SW_SHOW);

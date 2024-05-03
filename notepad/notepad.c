@@ -3,9 +3,8 @@
  *   Copyright (C) 1984-2001 Microsoft Inc.
  */
 
-
 #include "precomp.h"
-//#include <htmlhelp.h>
+//#include <HtmlHelp.h>
 
 #define DeepTrouble() MessageBox(hwndNP, szErrSpace, szNN, MB_SYSTEMMODAL|MB_OK|MB_ICONHAND);
 BOOL MergeStrings(TCHAR*, TCHAR*, TCHAR*);
@@ -264,18 +263,21 @@ VOID PASCAL SetPageSetupDefaults( VOID )
 /* Standard window size proc */
 void NPSize (int cxNew, int cyNew)
 {
-
     /* Invalidate the edit control window so that it is redrawn with the new
      * margins. Needed when comming up from iconic and when doing word wrap so
      * the new margins are accounted for.
      */
 
-    InvalidateRect(hwndEdit, (LPRECT)NULL, TRUE);
+    // NotepadEx: This InvalidateRect call causes flickering on window resize.
+    // It also doesn't seem to be necessary at all for the stated reasons in
+    // the original comment, above.
+    // Furthermore, this call seems to have been removed on Windows 7.
+    // After testing on XP and 2000 it doesn't seem to be needed there either.
+    //InvalidateRect(hwndEdit, (LPRECT)NULL, TRUE);
 
     // the height of the edit window depends on whether the status bar is
     // displayed.
-    MoveWindow (hwndEdit, 0, 0, cxNew, cyNew - (fStatus?dyStatus:0), TRUE);
-
+    MoveWindow(hwndEdit, 0, 0, cxNew, cyNew - (fStatus ? dyStatus : 0), TRUE);
 }
 
 // NpSaveDialogHookProc
