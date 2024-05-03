@@ -769,13 +769,13 @@ BOOL FAR LoadFile (TCHAR * sz, INT typeFlag )
 
     g_ftOpenedAs= ftOpenedAs;   // got everything; update global safe now
 
-    } 
-    __except(EXCEPTION_EXECUTE_HANDLER)
-    {
-        AlertBox( hwndNP, szNN, szDiskError, sz,
-            MB_APPLMODAL | MB_OK | MB_ICONEXCLAMATION );
-        nChars= 0;   // don't deal with it.
-    }
+    //} 
+    //__except(EXCEPTION_EXECUTE_HANDLER)
+    //{
+    //    AlertBox( hwndNP, szNN, szDiskError, sz,
+    //        MB_APPLMODAL | MB_OK | MB_ICONEXCLAMATION );
+    //    nChars= 0;   // don't deal with it.
+    //}
 
     /* Free file mapping */
     if( lpBuf != (LPTSTR) &szNullFile )
