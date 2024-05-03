@@ -9,14 +9,14 @@
 #define CONST const
 
 #ifndef RC_INVOKED
-#  include <ole2.h>
-#  include <commdlg.h>
-#  include <commctrl.h>
-   // we need this for CharSizeOf(), ByteCountOf(),
-#  include "uniconv.h"
+#include <ole2.h>
+#include <commdlg.h>
+#include <commctrl.h>
+// we need this for CharSizeOf(), ByteCountOf(),
+#include "uniconv.h"
 
-#  define STRSAFE_NO_DEPRECATE
-#  include <strsafe.h>
+#define STRSAFE_NO_DEPRECATE
+#include <strsafe.h>
 #endif // ifndef RC_INVOKED
 
 /* handy debug macro */
