@@ -29,6 +29,7 @@
 #define VER_PRODUCTNAME_STR         "Notepad NT"
 
 #define VER_FILETYPE                VFT_APP
+#define VER_FILESUBTYPE             VFT_UNKNOWN
 
 #ifndef DEBUG
 #define VER_DEBUG                   0
