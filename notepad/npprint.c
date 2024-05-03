@@ -325,7 +325,7 @@ HDC GetPrinterDCviaDialog( VOID )
     // get DC if valid return
     //
 
-    hDC= INVALID_HANDLE_VALUE;
+    hDC = (HDC) INVALID_HANDLE_VALUE;
 
     if( hRes == S_OK )
     {
