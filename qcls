@@ -1,64 +1,0 @@
-[1mdiff --git a/notepad/notepad.rc b/notepad/notepad.rc[m
-[1mindex 82d49b4..4991a56 100644[m
-[1m--- a/notepad/notepad.rc[m
-[1m+++ b/notepad/notepad.rc[m
-[36m@@ -6,7 +6,6 @@[m
- [m
- #include "notepad.h"[m
- #include <winver.h>[m
-[31m-[m
- #define GRP      WS_GROUP[m
- #define TAB      WS_TABSTOP[m
- #define TABGRP   WS_TABSTOP | WS_GROUP[m
-[36m@@ -79,15 +78,15 @@[m [mID_MENUBAR  MENU PRELOAD DISCARDABLE[m
- BEGIN[m
-     POPUP   "&File"[m
-         BEGIN[m
-[31m-            MENUITEM    "&New\tCtrl+N",          M_NEW[m
-[31m-            MENUITEM    "&Open...\tCtrl+O",      M_OPEN[m
-[31m-            MENUITEM    "&Save\tCtrl+S",         M_SAVE[m
-[31m-            MENUITEM    "Save &As...",           M_SAVEAS[m
-[32m+[m[32m            MENUITEM    "&New\tCtrl+N",                         M_NEW[m[41m[m
-[32m+[m[32m            MENUITEM    "&Open...\tCtrl+O",                     M_OPEN[m[41m[m
-[32m+[m[32m            MENUITEM    "&Save\tCtrl+S",                        M_SAVE[m[41m[m
-[32m+[m[32m            MENUITEM    "Save &As...\tCtrl+Shift+S",            M_SAVEAS[m[41m[m
-             MENUITEM    SEPARATOR[m
-[31m-            MENUITEM    "Page Set&up...",        M_PAGESETUP[m
-[31m-            MENUITEM    "&Print...\tCtrl+P",     M_PRINT[m
-[32m+[m[32m            MENUITEM    "Page Set&up...",                       M_PAGESETUP[m[41m[m
-[32m+[m[32m            MENUITEM    "&Print...\tCtrl+P",                    M_PRINT[m[41m[m
-             MENUITEM    SEPARATOR[m
-[31m-            MENUITEM    "E&xit",                 M_EXIT[m
-[32m+[m[32m            MENUITEM    "E&xit",                                M_EXIT[m[41m[m
-         END[m
- [m
-     POPUP   "&Edit"[m
-[36m@@ -126,9 +125,9 @@[m [mBEGIN[m
- [m
-     POPUP "&Help"[m
-         BEGIN[m
-[31m-            MENUITEM     "&Help Topics",  M_HELP[m
-[32m+[m[32m            MENUITEM     "View &Help",  M_HELP[m[41m[m
-             MENUITEM     SEPARATOR[m
-[31m-            MENUITEM     "&About Notepad",M_ABOUT[m
-[32m+[m[32m            MENUITEM     "&About Notepad NT",M_ABOUT[m[41m[m
-         END[m
- [m
- END[m
-[36m@@ -138,6 +137,7 @@[m [mBEGIN[m
-     "N",       M_NEW,      VIRTKEY, CONTROL[m
-     "O",       M_OPEN,     VIRTKEY, CONTROL[m
-     "S",       M_SAVE,     VIRTKEY, CONTROL[m
-[32m+[m[32m    "S",       M_SAVEAS,   VIRTKEY, CONTROL, SHIFT[m[41m[m
-     "P",       M_PRINT,    VIRTKEY, CONTROL[m
-     VK_INSERT, M_COPY,     VIRTKEY, CONTROL[m
-     VK_F1,     M_HELP,     VIRTKEY[m
-[36m@@ -245,6 +245,8 @@[m [mBEGIN[m
- [m
-     IDS_LETTERS     "fFpPtTdDcCrRlL"[m
- [m
-[32m+[m[32m    IDS_LT_WINDOWS   "   Windows (CRLF)  "[m[41m[m
-[32m+[m[32m    IDS_LT_UNIX         "   Unix (LF)  "[m[41m[m
- END[m
- [m
- /* Include other dialogs. */[m
