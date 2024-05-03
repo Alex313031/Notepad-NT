@@ -4,7 +4,7 @@
  */
 
 #include "precomp.h"
-//#include <HtmlHelp.h>
+#include <HtmlHelp.h>
 
 #define DeepTrouble() MessageBox(hwndNP, szErrSpace, szNN, MB_SYSTEMMODAL|MB_OK|MB_ICONHAND);
 BOOL MergeStrings(TCHAR*, TCHAR*, TCHAR*);
