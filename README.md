@@ -1,4 +1,4 @@
-# <img src="https://github.com/Alex313031/Notepad-NT/blob/main/winnt_flag.svg" width="42">&nbsp; Notepad-NT &nbsp;<img src="https://github.com/Alex313031/Notepad-NT/blob/main/notepad/notepad.ico" width="42">
+# <img src="https://github.com/Alex313031/Notepad-NT/blob/main/winnt_flag.svg" width="48">&nbsp; Notepad-NT &nbsp;<img src="https://github.com/Alex313031/Notepad-NT/blob/main/notepad/notepad.ico" width="42">
 
 Windows NT 5.x Notepad with fixes
 
