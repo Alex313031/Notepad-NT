@@ -28,8 +28,7 @@ Works on Windows XP - 10 (11 doesn't display it correctly)
 
 Requires MSVS 2017 or 2019 *and* the `v141_xp` Windows XP toolchain.  
 This can be found in the Visual Studio Installer after going to "Individual Components" and searching for "Windows XP". 
-Info [Here](https://learn.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp#install-the-windows-xp-platform-toolset).  
-NOTE: MSVS 2022 doesn't have this component anymore.
+Info [Here](https://learn.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp#install-the-windows-xp-platform-toolset).
 
 The original source called for MSVS 2005, and the updated project files from [vxiiduu](https://github.com/vxiiduu) 
 called for MSVS 2010, but I wanted it to be able to build on modern Windows and modern MSVS, 
