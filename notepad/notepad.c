@@ -795,7 +795,7 @@ INT NPCommand(
             break;
 
         case M_HELP:
-            }
+            {
                 // NT5 style - on XP and 2k, the required CHM file is located at %WINDIR%\Help\notepad.chm
                 //HtmlHelpA(GetDesktopWindow(), "notepad.chm", HH_DISPLAY_TOPIC, 0L);
                 TCHAR szNpHelpPath[MAX_PATH];
