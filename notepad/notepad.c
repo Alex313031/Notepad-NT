@@ -1,45 +1,46 @@
 /*
  *   Notepad application
  *   Copyright (C) 1984-2001 Microsoft Inc.
+ *   Copyright (C) 2024 Alex313031.
  */
 
 #include "precomp.h"
-#include <HtmlHelp.h>
+// #include <HtmlHelp.h>
 
 #define DeepTrouble() MessageBox(hwndNP, szErrSpace, szNN, MB_SYSTEMMODAL|MB_OK|MB_ICONHAND);
 BOOL MergeStrings(TCHAR*, TCHAR*, TCHAR*);
 
-UINT     lGotoLine;                  /* line number to goto to */
+UINT     lGotoLine;                     /* line number to goto to */
 
 TCHAR    chMerge;
-HWND     hwndNP = 0;                 /* handle to notepad parent window   */
-HWND     hwndStatus = 0;             /* handle to notepad status window   */
-HWND     hwndEdit = 0;               /* handle to main text control item  */
-HANDLE   hEdit;                      /* Handle to storage for edit item   */
-HWND     hDlgFind = NULL;            /* handle to modeless FindText window */
-HANDLE   hStdCursor;                 /* handle to arrow or beam cursor    */
-HANDLE   hWaitCursor;                /* handle to hour glass cursor       */
-HANDLE   hInstanceNP;                /* Module instance handle            */
-HANDLE   hFont;                      /* handle to Unicode font            */
-LOGFONT  FontStruct;                 /* font dialog structure             */
-INT      iPointSize=120;             /* current point size unit=1/10 pts  */
-TCHAR    szFileName[MAX_PATH];       /* Current notepad filename          */
-TCHAR    szSearch[CCHKEYMAX];        /* Search string                     */
-TCHAR    szReplace[CCHKEYMAX];       /* replace string                    */
+HWND     hwndNP = 0;                    /* handle to notepad parent window   */
+HWND     hwndStatus = 0;                /* handle to notepad status window   */
+HWND     hwndEdit = 0;                  /* handle to main text control item  */
+HANDLE   hEdit;                         /* Handle to storage for edit item   */
+HWND     hDlgFind = NULL;               /* handle to modeless FindText window */
+HANDLE   hStdCursor;                    /* handle to arrow or beam cursor    */
+HANDLE   hWaitCursor;                   /* handle to hour glass cursor       */
+HANDLE   hInstanceNP;                   /* Module instance handle            */
+HANDLE   hFont;                         /* handle to Unicode font            */
+LOGFONT  FontStruct;                    /* font dialog structure             */
+INT      iPointSize=120;                /* current point size unit=1/10 pts  */
+TCHAR    szFileName[MAX_PATH];          /* Current notepad filename          */
+TCHAR    szSearch[CCHKEYMAX];           /* Search string                     */
+TCHAR    szReplace[CCHKEYMAX];          /* replace string                    */
 
-BOOL     fUntitled = TRUE;           /* TRUE iff notepad has no title                  */
-BOOL     fStatus = FALSE;            /* status bar shown?                              */
-BOOL     fLastStatus = FALSE;        /* status bar status when wordwrap was turned off */
-INT      dyStatus;                   /* height of status bar                           */
+BOOL     fUntitled = TRUE;              /* TRUE iff notepad has no title                  */
+BOOL     fStatus = FALSE;               /* status bar shown?                              */
+BOOL     fLastStatus = FALSE;           /* status bar status when wordwrap was turned off */
+INT      dyStatus;                      /* height of status bar                           */
 
 
-HMENU    hSysMenuSetup;              /* Save Away for disabled Minimize   */
+HMENU    hSysMenuSetup;                 /* Save Away for disabled Minimize   */
 
-DWORD    dwEmSetHandle = 0;          /* Is EM_SETHANDLE in process?       */
-HANDLE   hAccel;                     /* Handle to accelerator table       */
-BOOL     fRunBySetup = FALSE;        /* Did SlipUp WinExec us??           */
-BOOL     fWrap = 0;                  /* Flag for word wrap                */
-TCHAR    szNotepad[] = TEXT("Notepad");/* Name of notepad window class    */
+DWORD    dwEmSetHandle = 0;             /* Is EM_SETHANDLE in process?       */
+HANDLE   hAccel;                        /* Handle to accelerator table       */
+BOOL     fRunBySetup = FALSE;           /* Did SlipUp WinExec us??           */
+BOOL     fWrap = 0;                     /* Flag for word wrap                */
+TCHAR    szNotepad[] = TEXT("Notepad"); /* Name of notepad window class    */
 
 BOOL     fInSaveAsDlg = FALSE;
 
@@ -794,11 +795,13 @@ INT NPCommand(
             break;
 
         case M_HELP:
-            // NT5 style - on XP and 2k, the required CHM file is located at %WINDIR%\Help\notepad.chm
-            //HtmlHelpA(GetDesktopWindow(), "notepad.chm", HH_DISPLAY_TOPIC, 0L);
-            TCHAR szNpHelpPath[MAX_PATH];
-            ExpandEnvironmentStrings(TEXT("%WINDIR%\\Help\\notepad-nt.chm"), szNpHelpPath, ARRAYSIZE(szNpHelpPath));
-            ShellExecute(GetDesktopWindow(), NULL, szNpHelpPath, NULL, NULL, TRUE);
+            }
+                // NT5 style - on XP and 2k, the required CHM file is located at %WINDIR%\Help\notepad.chm
+                //HtmlHelpA(GetDesktopWindow(), "notepad.chm", HH_DISPLAY_TOPIC, 0L);
+                TCHAR szNpHelpPath[MAX_PATH];
+                ExpandEnvironmentStrings(TEXT("%WINDIR%\\Help\\notepad-nt.chm"), szNpHelpPath, ARRAYSIZE(szNpHelpPath));
+                ShellExecute(GetDesktopWindow(), NULL, szNpHelpPath, NULL, NULL, TRUE);
+            }
             break;
 
         case M_CUT:

@@ -20,9 +20,6 @@ Works on Windows XP - 10 (11 doesn't display it correctly)
 
 ### TODO:
 
- &ndash; Add Windows 2000 support (newer link.exe doesn't accept NT 5.0 as a mimimum version, it
- is currently set to 5.1).
-
  &ndash; Add "Open New Window" option.
 
  &ndash; Allow "Find" Dialog box to search backwards with 'Shift+F3'
@@ -39,3 +36,10 @@ called for MSVS 2010, but I wanted it to be able to build on modern Windows and 
 while still being able to build on Windows 7.
 
  - Open the `Notepad-NT.sln` file and then you can build it.
+
+#### Windows 2000 Support
+
+Requires MSVS 2010 + Windows 7 SDK  
+This allows for Windows 2000 support.
+
+ - Open the `Notepad-NT-msvs2010.sln` file and then you can build it.
