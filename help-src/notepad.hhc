@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML DIR="LTR">
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800624">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Notepad">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Notepad overview">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_whatis_intro.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Find specific characters or words">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_finding_words.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Find and replace specific characters or words">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_replacing_words.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wrap text to the window size">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_wrapping_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Go to a specific line">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_goto_line.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cut, copy, paste, or delete text">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_delete_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Change the font style and size">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_font.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Create a header or footer">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_header_footer.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Change the appearance of a printed Notepad document">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_page_setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Print a Notepad document">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_print.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Insert the time and date in a document">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_time_date.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Append a log to a document">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_tracking_time.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using different language formats in Notepad">
+			<param name="Local" value="MS-ITS:notepad-nt.chm::/win_notepad_utf_description.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

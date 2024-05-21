@@ -1,0 +1,617 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML DIR="LTR">
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="current">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="adding logs">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="adding page numbers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="aligning headers and footers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ampersands, inserting">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ANSI">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="appending logs">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Arabic">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="big Endian Unicode">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="changing fonts">
+		<param name="Name" value="Change the font style and size">
+		<param name="Local" value="win_notepad_font.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="character sets">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="characters">
+		<param name="See Also" value="characters">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(See also text)">
+			<param name="See Also" value="text">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="different language formats">
+			<param name="Name" value="Using different language formats in Notepad">
+			<param name="Local" value="win_notepad_utf_description.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="finding">
+			<param name="Name" value="Find specific characters or words">
+			<param name="Local" value="win_notepad_finding_words.htm">
+			<param name="Name" value="Find and replace specific characters or words">
+			<param name="Local" value="win_notepad_replacing_words.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="fonts">
+			<param name="Name" value="Change the font style and size">
+			<param name="Local" value="win_notepad_font.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="replacing">
+			<param name="Name" value="Find and replace specific characters or words">
+			<param name="Local" value="win_notepad_replacing_words.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="copying text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="current date and time">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		<param name="Name" value="Insert the time and date in a document">
+		<param name="Local" value="win_notepad_time_date.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cutting text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="date and time">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		<param name="Name" value="Insert the time and date in a document">
+		<param name="Local" value="win_notepad_time_date.htm">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="deleting text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="documents">
+		<param name="Name" value="Create a header or footer">
+		<param name="See Also" value="documents">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="headers and footers">
+			<param name="Name" value="Create a header or footer">
+			<param name="Local" value="win_notepad_header_footer.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="page setup">
+			<param name="Name" value="Change the appearance of a printed Notepad document">
+			<param name="Local" value="win_notepad_page_setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="printing">
+			<param name="Name" value="Print a Notepad document">
+			<param name="Local" value="win_notepad_print.htm">
+			<param name="Name" value="Change the appearance of a printed Notepad document">
+			<param name="Local" value="win_notepad_page_setup.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="editing text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="erasing text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="file formats">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="file names, inserting">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="file types">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="files See documents">
+		<param name="See Also" value="documents">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="finding specific lines">
+		<param name="Name" value="Go to a specific line">
+		<param name="Local" value="win_notepad_goto_line.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="finding text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		<param name="Name" value="Find specific characters or words">
+		<param name="Local" value="win_notepad_finding_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fonts">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		<param name="Name" value="Change the font style and size">
+		<param name="Local" value="win_notepad_font.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="footers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="globally replacing text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="going to specific lines">
+		<param name="Name" value="Go to a specific line">
+		<param name="Local" value="win_notepad_goto_line.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="hard copies">
+		<param name="Name" value="Print a Notepad document">
+		<param name="Local" value="win_notepad_print.htm">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="headers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hebrew">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="horizontal printing">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HTML documents">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting ampersands">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting date and time">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		<param name="Name" value="Insert the time and date in a document">
+		<param name="Local" value="win_notepad_time_date.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting file names">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting headers and footers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting page numbers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="inserting text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="landscape page orientation">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="languages">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="line number">
+		<param name="Name" value="Go to a specific line">
+		<param name="Local" value="win_notepad_goto_line.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="line wrap">
+		<param name="Name" value="Wrap text to the window size">
+		<param name="Local" value="win_notepad_wrapping_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="lines, finding">
+		<param name="Name" value="Go to a specific line">
+		<param name="Local" value="win_notepad_goto_line.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOG files">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="logs">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="looking for text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		<param name="Name" value="Find specific characters or words">
+		<param name="Local" value="win_notepad_finding_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="lowercase characters">
+		<param name="Name" value="Find specific characters or words">
+		<param name="Local" value="win_notepad_finding_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Macintosh, saving files for">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="margins">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="moving text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="multiple languages">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="orientation of paper">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="overview">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="page numbers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="page orientation">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="page setup">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="paper size and orientation">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="paper source">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="pasting text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="Local" value="win_notepad_delete_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="placement of headers and footers">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="portrait page orientation">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="printer settings">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="printing">
+		<param name="Name" value="Print a Notepad document">
+		<param name="Local" value="win_notepad_print.htm">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="printouts">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		<param name="Name" value="Print a Notepad document">
+		<param name="Local" value="win_notepad_print.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="replacing text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="samples of fonts, viewing">
+		<param name="Name" value="Change the font style and size">
+		<param name="Local" value="win_notepad_font.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="saving documents">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="searching for text">
+		<param name="Name" value="Find and replace specific characters or words">
+		<param name="Local" value="win_notepad_replacing_words.htm">
+		<param name="Name" value="Find specific characters or words">
+		<param name="Local" value="win_notepad_finding_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="seeing all text on a line">
+		<param name="Name" value="Wrap text to the window size">
+		<param name="Local" value="win_notepad_wrapping_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="size of paper">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="stamping file with date and time">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		<param name="Name" value="Insert the time and date in a document">
+		<param name="Local" value="win_notepad_time_date.htm">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="text">
+		<param name="Name" value="Cut, copy, paste, or delete text">
+		<param name="See Also" value="text">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="copying">
+			<param name="Name" value="Cut, copy, paste, or delete text">
+			<param name="Local" value="win_notepad_delete_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="cutting and pasting">
+			<param name="Name" value="Cut, copy, paste, or delete text">
+			<param name="Local" value="win_notepad_delete_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="deleting">
+			<param name="Name" value="Cut, copy, paste, or delete text">
+			<param name="Local" value="win_notepad_delete_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="finding">
+			<param name="Name" value="Find and replace specific characters or words">
+			<param name="Local" value="win_notepad_replacing_words.htm">
+			<param name="Name" value="Find specific characters or words">
+			<param name="Local" value="win_notepad_finding_words.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="fonts">
+			<param name="Name" value="Change the font style and size">
+			<param name="Local" value="win_notepad_font.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="moving">
+			<param name="Name" value="Cut, copy, paste, or delete text">
+			<param name="Local" value="win_notepad_delete_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="multiple-language support">
+			<param name="Name" value="Using different language formats in Notepad">
+			<param name="Local" value="win_notepad_utf_description.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="page setup">
+			<param name="Name" value="Change the appearance of a printed Notepad document">
+			<param name="Local" value="win_notepad_page_setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="printing">
+			<param name="Name" value="Print a Notepad document">
+			<param name="Local" value="win_notepad_print.htm">
+			<param name="Name" value="Change the appearance of a printed Notepad document">
+			<param name="Local" value="win_notepad_page_setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="replacing">
+			<param name="Name" value="Find and replace specific characters or words">
+			<param name="Local" value="win_notepad_replacing_words.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="word wrap">
+			<param name="Name" value="Wrap text to the window size">
+			<param name="Local" value="win_notepad_wrapping_text.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="wrapping">
+			<param name="Name" value="Wrap text to the window size">
+			<param name="Local" value="win_notepad_wrapping_text.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="text files">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="time and date">
+		<param name="Name" value="Insert the time and date in a document">
+		<param name="Local" value="win_notepad_time_date.htm">
+		<param name="Name" value="Create a header or footer">
+		<param name="Local" value="win_notepad_header_footer.htm">
+		<param name="Name" value="Append a log to a document">
+		<param name="Local" value="win_notepad_tracking_time.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TXT files">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unicode">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unicode Web sites">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="uppercase characters">
+		<param name="Name" value="Find specific characters or words">
+		<param name="Local" value="win_notepad_finding_words.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UTF-8">
+		<param name="Name" value="Using different language formats in Notepad">
+		<param name="Local" value="win_notepad_utf_description.htm">
+		<param name="Name" value="Notepad overview">
+		<param name="Local" value="win_notepad_whatis_intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="vertical printing">
+		<param name="Name" value="Change the appearance of a printed Notepad document">
+		<param name="Local" value="win_notepad_page_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Web pages">
+		<param name="Name" value="Notepad overview">
+		<param name="See Also" value="Web pages">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="creating">
+			<param name="Name" value="Notepad overview">
+			<param name="Local" value="win_notepad_whatis_intro.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Unicode-related sites">
+			<param name="Name" value="Using different language formats in Notepad">
+			<param name="Local" value="win_notepad_utf_description.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="window size">
+		<param name="Name" value="Wrap text to the window size">
+		<param name="Local" value="win_notepad_wrapping_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="word wrap">
+		<param name="Name" value="Wrap text to the window size">
+		<param name="Local" value="win_notepad_wrapping_text.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="words See text">
+		<param name="See Also" value="text">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="wrapping text">
+		<param name="Name" value="Wrap text to the window size">
+		<param name="Local" value="win_notepad_wrapping_text.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

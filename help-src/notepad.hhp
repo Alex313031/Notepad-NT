@@ -1,0 +1,27 @@
+[OPTIONS]
+Compiled file=C:\Notepad-NT\help-src\notepad-nt.chm
+Contents file=C:\Notepad-NT\help-src\notepad.hhc
+Binary Index=Yes
+Index file=notepad.hhk
+Default topic=win_notepad_whatis_intro.htm
+Title=Notepad 
+Default Window=Main
+Language=0x409 English (United States)
+Full-text search=Yes
+[FILES]
+compile_date.htm
+notepad.hhc
+notepad.hhk
+win_notepad_delete_text.htm
+win_notepad_finding_words.htm
+win_notepad_font.htm
+win_notepad_goto_line.htm
+win_notepad_header_footer.htm
+win_notepad_page_setup.htm
+win_notepad_print.htm
+win_notepad_replacing_words.htm
+win_notepad_time_date.htm
+win_notepad_tracking_time.htm
+win_notepad_utf_description.htm
+win_notepad_whatis_intro.htm
+win_notepad_wrapping_text.htm
